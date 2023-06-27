@@ -7,6 +7,7 @@ import { BiLogOut } from 'react-icons/bi';
 import SidebarTweetButton from '@/components/layout/SidebarTweetButton';
 import useCurrentUser from '@/hooks/useCurrentUser';
 import { signOut } from 'next-auth/react';
+import Image from 'next/image';
 
 const Sidebar = () => {
   const { data: currentUser } = useCurrentUser();
