@@ -1,5 +1,4 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import userId from '@/pages/users/[userId]';
 import prismaDb from '@/libs/prismaDb';
 
 export default async function handler(
